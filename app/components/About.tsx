@@ -33,23 +33,27 @@ export function About() {
           </p>
           <p>
             During my career gap, I turned this mindset toward quantitative
-            trading. What began as curiosity grew into systematic research —
-            designing trading pipelines, building backtesting frameworks,
-            and studying market behavior through data-driven experimentation.
+            trading. What began as curiosity grew into systematic research —{" "}
+            <span className="text-[var(--color-text-primary)]">
+              designing trading pipelines, building backtesting frameworks,
+              and studying market behavior
+            </span>{" "}
+            through data-driven experimentation.
           </p>
           <p>
             My background in data analytics shaped how I approach trading —
             not as speculation, but as a continuous process of{" "}
-            <em style={displayStyle} className="italic">
-              research, validation, and iteration
-            </em>
-            .
+            <span className="text-[var(--color-text-primary)]">
+              research, validation, and iteration.
+            </span>
           </p>
           <p>
             Trading sits close to gambling. The work above is my attempt to
-            pull it away from that line — through rigorous analysis,
-            statistical discipline, and the ability to tell a working
-            strategy from an overfit curve.
+            pull it away from that line — through{" "}
+            <span className="text-[var(--color-text-primary)]">
+              rigorous analysis, statistical discipline, and the ability to
+              tell a working strategy from an overfit curve.
+            </span>
           </p>
         </div>
       </div>

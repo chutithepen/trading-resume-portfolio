@@ -170,7 +170,7 @@ function DeployKillBody() {
         <div className="mb-3 text-[10px] font-medium uppercase tracking-[0.2em] text-[var(--color-text-tertiary)] sm:text-xs">
           Live since {firstSeen}
         </div>
-        <div className="grid grid-cols-3 gap-x-6">
+        <div className="grid grid-cols-3 gap-x-3 sm:gap-x-6">
           <div>
             <div
               className="text-2xl tabular-nums leading-none text-[var(--color-text-primary)] sm:text-3xl"

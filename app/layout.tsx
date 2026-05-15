@@ -27,11 +27,31 @@ const ibmPlexMono = IBM_Plex_Mono({
   weight: ["400", "500", "600", "700"],
 });
 
+const SITE_URL = "https://trading-resume-portfolio.vercel.app";
+const SITE_TITLE = "Heng (Chutithep) — Live quantitative trading portfolio";
+const SITE_DESCRIPTION =
+  "Senior data analyst (Shopee, NocNoc) on a career break. A live quantitative trading system I built using Claude — 23 strategies researched, 8 deployed, the rest killed. Walked through one worked example end-to-end.";
+
 export const metadata: Metadata = {
-  title: "Chutithep — Analytical skill meets AI fluency",
-  description:
-    "A live quantitative trading system I built during my career gap. " +
-    "Strategies researched, deployed, and killed — with the analysis behind each call.",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    siteName: "Heng's Trading Portfolio",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

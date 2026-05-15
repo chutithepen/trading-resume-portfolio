@@ -240,16 +240,21 @@ def build_equity_curve_pct(
 
 def per_strategy_stats(trade_deals: list[Deal], magic_map: dict[int, dict], denom: float) -> list[dict]:
     """Group all trade deals by magic, return per-strategy stats. Magics
-    found in lab.sqlite use the stored display name; others use defaults."""
+    found in lab.sqlite use the stored display name; others use defaults.
+
+    `trades` counts CLOSE deals only — each open/close pair is one round-turn
+    trade. Sum of per-strategy trades equals the hero `totalTrades`.
+    """
     by_magic: dict[int, list[Deal]] = {}
     for d in trade_deals:
         by_magic.setdefault(d.magic, []).append(d)
     rows = []
     for magic in sorted(by_magic.keys()):
         ds = by_magic[magic]
-        wins = sum(1 for d in ds if d.net_pnl > 0)
-        total = len(ds)
-        net = sum(d.net_pnl for d in ds)
+        close_deals = [d for d in ds if d.is_close]
+        wins = sum(1 for d in close_deals if d.net_pnl > 0)
+        total = len(close_deals)
+        net = sum(d.net_pnl for d in ds)  # all deals — entry commissions matter
         meta = magic_map.get(magic, {})
         # Default name: "Manual" for magic 0, "Magic <N>" otherwise
         default_name = "Manual" if magic == 0 else f"Magic {magic}"

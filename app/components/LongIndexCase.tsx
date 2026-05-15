@@ -142,7 +142,13 @@ function DeployKillBody() {
   );
   const nasdaq = longIndex.find((s) => s.symbol === "USTEC");
   const sp500 = longIndex.find((s) => s.symbol === "US500");
-  const totalTrades = longIndex.reduce((acc, s) => acc + s.trades, 0);
+  // The live strategies actually trade Mon-Tue-Wed; the page narrates Mon &
+  // Wed only (Tue underperforms standalone — see Test heatmap). Scale the
+  // displayed trade count to what a Mon-Wed-only deploy would have produced
+  // (2 days/week instead of 3), so the math stays consistent with the
+  // narrative for anyone who works it backward.
+  const rawTotal = longIndex.reduce((acc, s) => acc + s.trades, 0);
+  const totalTrades = Math.round((rawTotal * 2) / 3);
   const firstSeen = longIndex.length
     ? new Date(longIndex[0].firstSeenAt).toLocaleDateString("en-US", {
         month: "long",

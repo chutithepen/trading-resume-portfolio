@@ -1,0 +1,25 @@
+{
+  "name": "resume-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack --port 3030",
+    "build": "next build",
+    "start": "next start --port 3030",
+    "lint": "next lint",
+    "snapshot": "node scripts/snapshot.mjs"
+  },
+  "dependencies": {
+    "next": "16.0.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.7",
+    "@types/node": "22.10.10",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "tailwindcss": "4.1.7",
+    "typescript": "5.7.3"
+  }
+}

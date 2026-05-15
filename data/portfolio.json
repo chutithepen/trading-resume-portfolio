@@ -1,0 +1,182 @@
+{
+  "startDate": "2026-05-02",
+  "totalReturnPct": 10.928,
+  "totalTrades": 41,
+  "winRatePct": 43.9,
+  "profitFactor": 1.32,
+  "maxDrawdownPct": -12.823,
+  "benchmark": {
+    "returnPct": 2.701,
+    "windowStart": "2026-05-04",
+    "windowEnd": "2026-05-15",
+    "startClose": 7248.4,
+    "endClose": 7444.2
+  },
+  "strategiesResearched": 23,
+  "strategiesDeployed": 8,
+  "strategiesKilled": 15,
+  "equityCurve": [
+    {
+      "date": "2026-05-02",
+      "returnPct": 0.0
+    },
+    {
+      "date": "2026-05-03",
+      "returnPct": 0.0
+    },
+    {
+      "date": "2026-05-04",
+      "returnPct": 0.0
+    },
+    {
+      "date": "2026-05-05",
+      "returnPct": -5.635
+    },
+    {
+      "date": "2026-05-06",
+      "returnPct": 0.2
+    },
+    {
+      "date": "2026-05-07",
+      "returnPct": 6.655
+    },
+    {
+      "date": "2026-05-08",
+      "returnPct": 5.719
+    },
+    {
+      "date": "2026-05-09",
+      "returnPct": 11.026
+    },
+    {
+      "date": "2026-05-10",
+      "returnPct": 13.282
+    },
+    {
+      "date": "2026-05-11",
+      "returnPct": 9.173
+    },
+    {
+      "date": "2026-05-12",
+      "returnPct": 7.553
+    },
+    {
+      "date": "2026-05-13",
+      "returnPct": 0.459
+    },
+    {
+      "date": "2026-05-14",
+      "returnPct": 1.891
+    },
+    {
+      "date": "2026-05-15",
+      "returnPct": 9.183
+    }
+  ],
+  "strategies": [
+    {
+      "magic": 10001,
+      "name": "RBO USTEC v8.0",
+      "engine": "RangeBreakoutEA_v8.0",
+      "symbol": "USTEC",
+      "firstSeenAt": "2026-05-02T18:28:19+00:00",
+      "trades": 18,
+      "wins": 2,
+      "winRatePct": 11.1,
+      "netPnlPct": 2.433,
+      "fromStrategyLab": true
+    },
+    {
+      "magic": 10002,
+      "name": "RBO XAUUSD v8.0",
+      "engine": "RangeBreakoutEA_v8.0",
+      "symbol": "XAUUSD",
+      "firstSeenAt": "2026-05-04T15:51:21+00:00",
+      "trades": 15,
+      "wins": 2,
+      "winRatePct": 13.3,
+      "netPnlPct": -3.9,
+      "fromStrategyLab": true
+    },
+    {
+      "magic": 10003,
+      "name": "RBO BTCUSD v8.0",
+      "engine": "RangeBreakoutEA_v8.0",
+      "symbol": "BTCUSD",
+      "firstSeenAt": "2026-05-05T14:53:54+00:00",
+      "trades": 16,
+      "wins": 4,
+      "winRatePct": 25.0,
+      "netPnlPct": 4.188,
+      "fromStrategyLab": true
+    },
+    {
+      "magic": 20001,
+      "name": "Go Long US500 v4.0",
+      "engine": "LongIndexEA_v4.0",
+      "symbol": "US500",
+      "firstSeenAt": "2026-05-02T18:25:12+00:00",
+      "trades": 12,
+      "wins": 4,
+      "winRatePct": 33.3,
+      "netPnlPct": 4.608,
+      "fromStrategyLab": true
+    },
+    {
+      "magic": 20002,
+      "name": "Go Long USTEC v4.0",
+      "engine": "LongIndexEA_v4.0",
+      "symbol": "USTEC",
+      "firstSeenAt": "2026-05-02T18:27:58+00:00",
+      "trades": 12,
+      "wins": 4,
+      "winRatePct": 33.3,
+      "netPnlPct": 5.237,
+      "fromStrategyLab": true
+    },
+    {
+      "magic": 30002,
+      "name": "BC BTCUSD v1.0",
+      "engine": "BreakoutContinuation_v1.0",
+      "symbol": "BTCUSD",
+      "firstSeenAt": "2026-05-08T17:54:08+00:00",
+      "trades": 10,
+      "wins": 2,
+      "winRatePct": 20.0,
+      "netPnlPct": -3.381,
+      "fromStrategyLab": true
+    },
+    {
+      "magic": 30003,
+      "name": "BC XAUUSD v1.0",
+      "engine": "BreakoutContinuation_v1.0",
+      "symbol": "XAUUSD",
+      "firstSeenAt": "2026-05-09T05:48:28+00:00",
+      "trades": 1,
+      "wins": 0,
+      "winRatePct": 0.0,
+      "netPnlPct": -0.001,
+      "fromStrategyLab": true
+    }
+  ],
+  "openPositions": [
+    {
+      "ticket": 4426782922,
+      "symbol": "XAUUSD",
+      "magic": 10002,
+      "volume": 0.01,
+      "openTime": "2026-05-15T14:43:41",
+      "priceOpen": 4607.02,
+      "profit": 68.14
+    },
+    {
+      "ticket": 4426856771,
+      "symbol": "XAUUSD",
+      "magic": 30003,
+      "volume": 0.01,
+      "openTime": "2026-05-15T16:00:00",
+      "priceOpen": 4557.96,
+      "profit": 19.08
+    }
+  ]
+}

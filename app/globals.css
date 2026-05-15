@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  /* Refined dark palette. */
+  --color-bg: #0a0a0a;
+  --color-surface: #131313;
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #a3a3a3;
+  --color-text-tertiary: #525252;
+  --color-accent: #4ade80;
+  --color-accent-dim: #166534;
+  --color-down: #f87171;
+  --color-border: #1f1f1f;
+
+  /* Fonts loaded by next/font in layout.tsx — wired here for utility access. */
+  --font-sans: var(--font-sans), "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-display), Georgia, serif;
+  --font-number: var(--font-number), ui-monospace, monospace;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings:
+    "ss01" on,
+    "ss03" on,
+    "cv11" on,
+    "calt" on;
+  font-variant-numeric: tabular-nums;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Subtle background tint at the top — gives the black some depth. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 80% 60% at 50% -10%,
+    rgba(74, 222, 128, 0.04) 0%,
+    rgba(74, 222, 128, 0) 60%
+  );
+  pointer-events: none;
+  z-index: -1;
+}

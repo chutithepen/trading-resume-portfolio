@@ -24,32 +24,25 @@ export function About() {
 
         <div className="max-w-2xl space-y-5 text-base leading-relaxed text-[var(--color-text-secondary)] sm:text-lg">
           <p>
-            I&apos;m at my best when the problem is fuzzy and the data is
-            messy. The pattern across my work is consistent:{" "}
+            I work the same way on every problem:{" "}
             <span className="text-[var(--color-text-primary)]">
-              find the friction, diagnose the root cause, design a scalable
-              solution.
-            </span>{" "}
-            I think hypothesis-first — every analysis starts with a
-            structural reason, not a number — and I lean on unit economics
-            when the answer needs to scale.
+              find the friction, diagnose the root cause, design a
+              data-driven solution.
+            </span>
           </p>
           <p>
-            Identifying the right abstraction is usually more valuable than
-            running another query. The trading edge on this page didn&apos;t
-            come from a smarter model — it came from asking{" "}
+            Every analysis starts with a hypothesis, not mindless
+            exploration. And I try not to mistake a dashboard for a
+            decision.
+          </p>
+          <p>
+            What I think I&apos;m best at is{" "}
             <em style={displayStyle} className="italic">
-              which days of the week actually pay out
+              knowing when to kill an idea
             </em>
-            , then killing the strategies that didn&apos;t survive the
-            question. That&apos;s the instinct I bring everywhere: separate
-            the question from the noise, then have the discipline to act on
-            the answer.
-          </p>
-          <p>
-            Comfortable across SQL, Python, experiment design, and
-            dashboarding. Most at home in the part of analytics where the
-            spreadsheet ends and the decision begins.
+            . Half the strategies above didn&apos;t survive the test, and
+            choosing not to deploy them was as analytical as choosing what
+            to keep.
           </p>
         </div>
       </div>

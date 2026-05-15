@@ -1,16 +1,16 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 9.278,
+  "totalReturnPct": 9.274,
   "totalTrades": 42,
   "winRatePct": 45.2,
   "profitFactor": 1.32,
   "maxDrawdownPct": -12.823,
   "benchmark": {
-    "returnPct": 2.398,
+    "returnPct": 2.214,
     "windowStart": "2026-05-04",
     "windowEnd": "2026-05-15",
     "startClose": 7248.4,
-    "endClose": 7422.2
+    "endClose": 7408.9
   },
   "strategiesResearched": 23,
   "strategiesDeployed": 8,
@@ -167,7 +167,7 @@
       "volume": 0.01,
       "openTime": "2026-05-15T14:43:41",
       "priceOpen": 4607.02,
-      "profit": 62.2
+      "profit": 63.2
     },
     {
       "ticket": 4427212869,
@@ -176,7 +176,7 @@
       "volume": 0.11,
       "openTime": "2026-05-16T00:00:00",
       "priceOpen": 78704.56,
-      "profit": -44.69
+      "profit": -45.56
     },
     {
       "ticket": 4427213223,
@@ -185,7 +185,7 @@
       "volume": 0.04,
       "openTime": "2026-05-16T00:00:11",
       "priceOpen": 78627.79,
-      "profit": -19.32
+      "profit": -19.64
     }
   ]
 }

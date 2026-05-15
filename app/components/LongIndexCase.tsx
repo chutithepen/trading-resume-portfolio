@@ -103,9 +103,13 @@ export function LongIndexCase() {
                 <span className="text-[var(--color-text-primary)]">
                   Nasdaq and S&amp;P 500
                 </span>{" "}
-                and dropped{" "}
+                — holding only on{" "}
+                <span className="text-[var(--color-text-primary)]">
+                  Monday and Wednesday
+                </span>{" "}
+                — and dropped{" "}
                 <span className="text-[var(--color-text-primary)]">Dow</span>{" "}
-                due to weaker magnitude — not enough to justify deployment.
+                due to weaker magnitude, not enough to justify deployment.
               </p>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-[var(--color-text-secondary)] sm:text-lg">
                 Locked the parameters on the first 70% of history, then ran

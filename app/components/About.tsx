@@ -14,7 +14,7 @@ export function About() {
           >
             Built by{" "}
             <em style={displayStyle} className="italic">
-              Heng.
+              Chutithep.
             </em>
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-[var(--color-text-secondary)] sm:mt-6 sm:text-lg">
@@ -24,42 +24,32 @@ export function About() {
 
         <div className="max-w-2xl space-y-5 text-base leading-relaxed text-[var(--color-text-secondary)] sm:text-lg">
           <p>
-            Started at{" "}
+            I&apos;m at my best when the problem is fuzzy and the data is
+            messy. The pattern across my work is consistent:{" "}
             <span className="text-[var(--color-text-primary)]">
-              CP Group&apos;s Future Leader Program
-            </span>
-            , piloting what would become 7-Eleven&apos;s delivery service —
-            LINE + TrueMoney + motorbike taxis, three years before there was
-            an app.
+              find the friction, diagnose the root cause, design a scalable
+              solution.
+            </span>{" "}
+            I think hypothesis-first — every analysis starts with a
+            structural reason, not a number — and I lean on unit economics
+            when the answer needs to scale.
           </p>
           <p>
-            At{" "}
-            <span className="text-[var(--color-text-primary)]">Shopee</span>{" "}
-            (Business Transformation): cut cash-on-delivery rejection from
-            ~1% to ~0.2% with targeted eligibility guardrails (~50% of
-            platform orders), lifted brand-intent search CTR ~4× by surfacing
-            official-store entry points (no ranking changes — just better
-            intent matching), and reduced return-processing costs ~19% via
-            unit-economics-driven automation.
-          </p>
-          <p>
-            At{" "}
-            <span className="text-[var(--color-text-primary)]">NocNoc</span>{" "}
-            (Senior Data Analyst): led the company-wide data centralization,
-            built decision-focused dashboards for marketing and commercial,
-            validated the cart price-drop feature via A/B testing (~85%
-            confidence before rollout), shipped a Python pipeline that
-            translated and approved 100k+ SKUs in a week, and designed the
-            MECE intent taxonomy behind the seller-response chatbot.
-          </p>
-          <p>
-            This site is what I built during my career gap — same instincts,
-            applied to a domain (quantitative trading) where the bar for
-            analytical rigor is unforgiving. The method on this page —{" "}
+            Identifying the right abstraction is usually more valuable than
+            running another query. The trading edge on this page didn&apos;t
+            come from a smarter model — it came from asking{" "}
             <em style={displayStyle} className="italic">
-              hypothesis, test, validate, deploy or kill
-            </em>{" "}
-            — is how I work on everything.
+              which days of the week actually pay out
+            </em>
+            , then killing the strategies that didn&apos;t survive the
+            question. That&apos;s the instinct I bring everywhere: separate
+            the question from the noise, then have the discipline to act on
+            the answer.
+          </p>
+          <p>
+            Comfortable across SQL, Python, experiment design, and
+            dashboarding. Most at home in the part of analytics where the
+            spreadsheet ends and the decision begins.
           </p>
         </div>
       </div>

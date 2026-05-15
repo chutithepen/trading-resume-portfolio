@@ -28,9 +28,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 const SITE_URL = "https://trading-resume-portfolio.vercel.app";
-const SITE_TITLE = "Heng (Chutithep) — Live quantitative trading portfolio";
+const SITE_TITLE = "Chutithep — Live quantitative trading portfolio";
 const SITE_DESCRIPTION =
-  "Senior data analyst (Shopee, NocNoc) on a career break. A live quantitative trading system I built using Claude — 23 strategies researched, 8 deployed, the rest killed. Walked through one worked example end-to-end.";
+  "Senior data analyst on a career break. A live quantitative trading system I built using Claude — 23 strategies researched, 8 deployed, the rest killed. One worked example walked through end-to-end.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
     url: SITE_URL,
-    siteName: "Heng's Trading Portfolio",
+    siteName: "Chutithep's Trading Portfolio",
     type: "website",
   },
   twitter: {

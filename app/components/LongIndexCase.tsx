@@ -81,10 +81,15 @@ export function LongIndexCase() {
                 .
               </p>
               <SweepHeatmap />
-              <p className="mt-5 max-w-xl text-sm leading-relaxed text-[var(--color-text-tertiary)] sm:text-base">
-                Mon and Wed positive on all three indices. Tue negative on all
-                three. The pattern replicates cross-instrument — not
-                single-symbol noise.
+              <p className="mt-5 max-w-xl text-base leading-relaxed text-[var(--color-text-secondary)] sm:text-lg">
+                <span className="text-[var(--color-text-primary)]">
+                  Mon and Wed do almost all the work.
+                </span>{" "}
+                Tue actively bleeds on every index; Thu and Fri barely move
+                the needle. The deployment rule writes itself —{" "}
+                <span className="text-[var(--color-text-primary)]">
+                  hold those two days, skip the rest of the week.
+                </span>
               </p>
             </>
           }

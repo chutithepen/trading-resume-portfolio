@@ -99,13 +99,13 @@ export function LongIndexCase() {
           body={
             <>
               <p className="max-w-xl text-base leading-relaxed text-[var(--color-text-secondary)] sm:text-lg">
-                Carried{" "}
+                Picked{" "}
                 <span className="text-[var(--color-text-primary)]">
                   Nasdaq and S&amp;P 500
                 </span>{" "}
-                forward. Dow showed the same Mon &amp; Wed shape, but the
-                magnitude was about half — not enough to justify a third
-                live deployment.
+                and dropped{" "}
+                <span className="text-[var(--color-text-primary)]">Dow</span>{" "}
+                due to weaker magnitude — not enough to justify deployment.
               </p>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-[var(--color-text-secondary)] sm:text-lg">
                 Locked the parameters on the first 70% of history, then ran

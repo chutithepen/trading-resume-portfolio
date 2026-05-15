@@ -1,6 +1,6 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 9.323,
+  "totalReturnPct": 9.278,
   "totalTrades": 42,
   "winRatePct": 45.2,
   "profitFactor": 1.32,
@@ -167,7 +167,7 @@
       "volume": 0.01,
       "openTime": "2026-05-15T14:43:41",
       "priceOpen": 4607.02,
-      "profit": 62.41
+      "profit": 62.2
     },
     {
       "ticket": 4427212869,
@@ -176,7 +176,7 @@
       "volume": 0.11,
       "openTime": "2026-05-16T00:00:00",
       "priceOpen": 78704.56,
-      "profit": -43.2
+      "profit": -44.69
     },
     {
       "ticket": 4427213223,
@@ -185,7 +185,7 @@
       "volume": 0.04,
       "openTime": "2026-05-16T00:00:11",
       "priceOpen": 78627.79,
-      "profit": -18.78
+      "profit": -19.32
     }
   ]
 }

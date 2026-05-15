@@ -24,25 +24,32 @@ export function About() {
 
         <div className="max-w-2xl space-y-5 text-base leading-relaxed text-[var(--color-text-secondary)] sm:text-lg">
           <p>
-            I work the same way on every problem:{" "}
+            I have a passion for solving problems, and my approach remains
+            the same whether in business, daily life, or trading:{" "}
             <span className="text-[var(--color-text-primary)]">
-              find the friction, diagnose the root cause, design a
-              data-driven solution.
+              formulate hypotheses, identify root causes, and make
+              data-driven decisions.
             </span>
           </p>
           <p>
-            Every analysis starts with a hypothesis, not mindless
-            exploration. And I try not to mistake a dashboard for a
-            decision.
+            During my career gap, I turned this mindset toward quantitative
+            trading. What began as curiosity grew into systematic research —
+            designing trading pipelines, building backtesting frameworks,
+            and studying market behavior through data-driven experimentation.
           </p>
           <p>
-            What I think I&apos;m best at is{" "}
+            My background in data analytics shaped how I approach trading —
+            not as speculation, but as a continuous process of{" "}
             <em style={displayStyle} className="italic">
-              knowing when to kill an idea
+              research, validation, and iteration
             </em>
-            . Half the strategies above didn&apos;t survive the test, and
-            choosing not to deploy them was as analytical as choosing what
-            to keep.
+            .
+          </p>
+          <p>
+            Trading sits close to gambling. The work above is my attempt to
+            pull it away from that line — through rigorous analysis,
+            statistical discipline, and the ability to tell a working
+            strategy from an overfit curve.
           </p>
         </div>
       </div>

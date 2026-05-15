@@ -1,6 +1,6 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 10.928,
+  "totalReturnPct": 10.456,
   "totalTrades": 41,
   "winRatePct": 43.9,
   "profitFactor": 1.32,
@@ -167,16 +167,7 @@
       "volume": 0.01,
       "openTime": "2026-05-15T14:43:41",
       "priceOpen": 4607.02,
-      "profit": 68.14
-    },
-    {
-      "ticket": 4426856771,
-      "symbol": "XAUUSD",
-      "magic": 30003,
-      "volume": 0.01,
-      "openTime": "2026-05-15T16:00:00",
-      "priceOpen": 4557.96,
-      "profit": 19.08
+      "profit": 63.64
     }
   ]
 }

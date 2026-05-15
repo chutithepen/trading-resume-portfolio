@@ -37,9 +37,9 @@ export function LongIndexCase() {
             className="text-balance text-3xl font-normal leading-[1.05] tracking-[-0.015em] sm:text-4xl lg:text-5xl"
             style={displayStyle}
           >
-            How the method played out on{" "}
+            How the method played out on one of my strategies,{" "}
             <em style={displayStyle} className="italic">
-              LongIndex.
+              Long Index.
             </em>
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-[var(--color-text-secondary)] sm:mt-6 sm:text-lg">

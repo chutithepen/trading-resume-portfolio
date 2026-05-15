@@ -87,10 +87,13 @@ export function Hero() {
 
       {/* Middle — equity curve with floating headline number + stat strip */}
       <div className="mx-auto mt-8 w-full max-w-7xl sm:mt-10">
+        <div className="mb-4 text-center text-[10px] font-medium uppercase tracking-[0.25em] text-[var(--color-text-tertiary)] sm:mb-5 sm:text-xs">
+          Live Performance
+        </div>
         <div className="mb-3 flex items-end justify-between px-1 sm:mb-4 sm:px-2">
           <div className="space-y-1">
             <div className="text-[10px] font-medium uppercase tracking-[0.18em] text-[var(--color-text-tertiary)] sm:text-xs">
-              Live since
+              Since
             </div>
             <div className="text-sm font-medium text-[var(--color-text-secondary)] sm:text-base">
               {formatDateLong(startDate)}
@@ -120,8 +123,8 @@ export function Hero() {
           href="#method"
           className="group flex flex-col items-center text-sm text-[var(--color-text-secondary)] transition-colors hover:text-[var(--color-text-primary)]"
         >
-          <span>How I decide what to deploy</span>
-          <span className="mt-1.5 text-lg transition-transform group-hover:translate-y-1">
+          <span>How I beat S&amp;P 500 using Data Analytics</span>
+          <span className="mt-1.5 inline-block animate-bounce text-lg">
             ↓
           </span>
         </a>

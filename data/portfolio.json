@@ -1,20 +1,20 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 9.54,
-  "totalTrades": 42,
-  "winRatePct": 45.2,
-  "profitFactor": 1.32,
+  "totalReturnPct": 7.779,
+  "totalTrades": 46,
+  "winRatePct": 43.5,
+  "profitFactor": 1.25,
   "maxDrawdownPct": -12.823,
   "benchmark": {
-    "returnPct": 2.214,
+    "returnPct": 2.281,
     "windowStart": "2026-05-04",
     "windowEnd": "2026-05-15",
     "startClose": 7248.4,
-    "endClose": 7408.9
+    "endClose": 7413.7
   },
-  "strategiesResearched": 23,
+  "strategiesResearched": 18,
   "strategiesDeployed": 8,
-  "strategiesKilled": 15,
+  "strategiesKilled": 10,
   "equityCurve": [
     {
       "date": "2026-05-02",
@@ -70,7 +70,11 @@
     },
     {
       "date": "2026-05-15",
-      "returnPct": 9.314
+      "returnPct": 8.493
+    },
+    {
+      "date": "2026-05-16",
+      "returnPct": 7.779
     }
   ],
   "strategies": [
@@ -80,10 +84,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "USTEC",
       "firstSeenAt": "2026-05-02T18:28:19+00:00",
-      "trades": 9,
+      "trades": 10,
       "wins": 2,
-      "winRatePct": 22.2,
-      "netPnlPct": 2.433,
+      "winRatePct": 20.0,
+      "netPnlPct": 1.612,
       "fromStrategyLab": true
     },
     {
@@ -92,10 +96,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "XAUUSD",
       "firstSeenAt": "2026-05-04T15:51:21+00:00",
-      "trades": 7,
-      "wins": 2,
-      "winRatePct": 28.6,
-      "netPnlPct": -3.9,
+      "trades": 8,
+      "wins": 3,
+      "winRatePct": 37.5,
+      "netPnlPct": -2.922,
       "fromStrategyLab": true
     },
     {
@@ -104,10 +108,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "BTCUSD",
       "firstSeenAt": "2026-05-05T14:53:54+00:00",
-      "trades": 8,
+      "trades": 9,
       "wins": 4,
-      "winRatePct": 50.0,
-      "netPnlPct": 4.188,
+      "winRatePct": 44.4,
+      "netPnlPct": 3.692,
       "fromStrategyLab": true
     },
     {
@@ -140,10 +144,10 @@
       "engine": "BreakoutContinuation_v1.0",
       "symbol": "BTCUSD",
       "firstSeenAt": "2026-05-08T17:54:08+00:00",
-      "trades": 5,
+      "trades": 6,
       "wins": 2,
-      "winRatePct": 40.0,
-      "netPnlPct": -3.381,
+      "winRatePct": 33.3,
+      "netPnlPct": -4.578,
       "fromStrategyLab": true
     },
     {
@@ -159,33 +163,5 @@
       "fromStrategyLab": true
     }
   ],
-  "openPositions": [
-    {
-      "ticket": 4426782922,
-      "symbol": "XAUUSD",
-      "magic": 10002,
-      "volume": 0.01,
-      "openTime": "2026-05-15T14:43:41",
-      "priceOpen": 4607.02,
-      "profit": 76.52
-    },
-    {
-      "ticket": 4427212869,
-      "symbol": "BTCUSD",
-      "magic": 30002,
-      "volume": 0.11,
-      "openTime": "2026-05-16T00:00:00",
-      "priceOpen": 78704.56,
-      "profit": -45.57
-    },
-    {
-      "ticket": 4427213223,
-      "symbol": "BTCUSD",
-      "magic": 10003,
-      "volume": 0.04,
-      "openTime": "2026-05-16T00:00:11",
-      "priceOpen": 78627.79,
-      "profit": -19.64
-    }
-  ]
+  "openPositions": []
 }

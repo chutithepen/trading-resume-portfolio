@@ -27,7 +27,7 @@ export function About() {
             I have a passion for solving problems, and my approach remains
             the same whether in business, daily life, or trading:{" "}
             <span className="text-[var(--color-text-primary)]">
-              formulate hypotheses, identify root causes, and make
+              formulate hypotheses, conduct analysis, and make
               data-driven decisions.
             </span>
           </p>

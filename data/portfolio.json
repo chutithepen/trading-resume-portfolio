@@ -6,11 +6,11 @@
   "profitFactor": 1.08,
   "maxDrawdownPct": -12.823,
   "benchmark": {
-    "returnPct": 1.633,
+    "returnPct": 1.384,
     "windowStart": "2026-05-04",
     "windowEnd": "2026-05-19",
     "startClose": 7248.4,
-    "endClose": 7366.8
+    "endClose": 7348.7
   },
   "strategiesResearched": 21,
   "strategiesDeployed": 8,

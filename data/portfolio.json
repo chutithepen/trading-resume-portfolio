@@ -1,16 +1,16 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 4.634,
-  "totalTrades": 56,
-  "winRatePct": 44.6,
-  "profitFactor": 1.11,
+  "totalReturnPct": 2.341,
+  "totalTrades": 59,
+  "winRatePct": 42.4,
+  "profitFactor": 1.02,
   "maxDrawdownPct": -12.823,
   "benchmark": {
-    "returnPct": 1.591,
+    "returnPct": 1.948,
     "windowStart": "2026-05-04",
     "windowEnd": "2026-05-19",
     "startClose": 7248.4,
-    "endClose": 7363.7
+    "endClose": 7389.6
   },
   "strategiesResearched": 21,
   "strategiesDeployed": 8,
@@ -90,7 +90,7 @@
     },
     {
       "date": "2026-05-20",
-      "returnPct": 4.634
+      "returnPct": 0.81
     }
   ],
   "strategies": [
@@ -124,10 +124,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "BTCUSD",
       "firstSeenAt": "2026-05-05T14:53:54+00:00",
-      "trades": 11,
+      "trades": 12,
       "wins": 5,
-      "winRatePct": 45.5,
-      "netPnlPct": 3.394,
+      "winRatePct": 41.7,
+      "netPnlPct": 2.873,
       "fromStrategyLab": true
     },
     {
@@ -136,10 +136,10 @@
       "engine": "LongIndexEA_v4.0",
       "symbol": "US500",
       "firstSeenAt": "2026-05-02T18:25:12+00:00",
-      "trades": 7,
+      "trades": 8,
       "wins": 4,
-      "winRatePct": 57.1,
-      "netPnlPct": 2.548,
+      "winRatePct": 50.0,
+      "netPnlPct": 0.902,
       "fromStrategyLab": true
     },
     {
@@ -148,10 +148,10 @@
       "engine": "LongIndexEA_v4.0",
       "symbol": "USTEC",
       "firstSeenAt": "2026-05-02T18:27:58+00:00",
-      "trades": 7,
+      "trades": 8,
       "wins": 4,
-      "winRatePct": 57.1,
-      "netPnlPct": 1.336,
+      "winRatePct": 50.0,
+      "netPnlPct": -0.321,
       "fromStrategyLab": true
     },
     {
@@ -191,5 +191,33 @@
       "fromStrategyLab": true
     }
   ],
-  "openPositions": []
+  "openPositions": [
+    {
+      "ticket": 4429110131,
+      "symbol": "USTEC",
+      "magic": 20002,
+      "volume": 0.5,
+      "openTime": "2026-05-20T08:05:00",
+      "priceOpen": 28831.6,
+      "profit": 57.9
+    },
+    {
+      "ticket": 4429110211,
+      "symbol": "US500",
+      "magic": 20001,
+      "volume": 1.9,
+      "openTime": "2026-05-20T08:05:00",
+      "priceOpen": 7355.4,
+      "profit": 25.65
+    },
+    {
+      "ticket": 4429315379,
+      "symbol": "BTCUSD",
+      "magic": 30002,
+      "volume": 0.15,
+      "openTime": "2026-05-20T17:00:00",
+      "priceOpen": 77331.7,
+      "profit": -7.0
+    }
+  ]
 }

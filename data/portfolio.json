@@ -1,6 +1,6 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 4.45,
+  "totalReturnPct": 3.727,
   "totalTrades": 59,
   "winRatePct": 42.4,
   "profitFactor": 1.02,
@@ -199,7 +199,7 @@
       "volume": 0.5,
       "openTime": "2026-05-20T08:05:00",
       "priceOpen": 28831.6,
-      "profit": 122.9
+      "profit": 101.0
     },
     {
       "ticket": 4429110211,
@@ -208,7 +208,7 @@
       "volume": 1.9,
       "openTime": "2026-05-20T08:05:00",
       "priceOpen": 7355.4,
-      "profit": 59.09
+      "profit": 44.84
     }
   ]
 }

@@ -6,15 +6,15 @@
   "profitFactor": 1.07,
   "maxDrawdownPct": -13.459,
   "benchmark": {
-    "returnPct": 2.406,
+    "returnPct": 2.202,
     "windowStart": "2026-05-04",
-    "windowEnd": "2026-05-20",
+    "windowEnd": "2026-05-21",
     "startClose": 7248.4,
-    "endClose": 7422.8
+    "endClose": 7408.0
   },
-  "strategiesResearched": 18,
+  "strategiesResearched": 20,
   "strategiesDeployed": 8,
-  "strategiesKilled": 10,
+  "strategiesKilled": 12,
   "equityCurve": [
     {
       "date": "2026-05-02",

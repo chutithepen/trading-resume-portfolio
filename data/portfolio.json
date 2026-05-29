@@ -1,16 +1,16 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 4.309,
+  "totalReturnPct": 4.602,
   "totalTrades": 89,
   "winRatePct": 42.7,
   "profitFactor": 1.08,
   "maxDrawdownPct": -13.459,
   "benchmark": {
-    "returnPct": 3.725,
+    "returnPct": 3.777,
     "windowStart": "2026-05-04",
     "windowEnd": "2026-05-27",
     "startClose": 7248.4,
-    "endClose": 7518.4
+    "endClose": 7522.2
   },
   "strategiesResearched": 20,
   "strategiesDeployed": 5,
@@ -126,7 +126,7 @@
     },
     {
       "date": "2026-05-29",
-      "returnPct": 4.604
+      "returnPct": 4.602
     }
   ],
   "strategies": [
@@ -187,7 +187,7 @@
       "trades": 5,
       "wins": 2,
       "winRatePct": 40.0,
-      "netPnlPct": 0.916,
+      "netPnlPct": 0.915,
       "fromStrategyLab": true
     },
     {
@@ -251,15 +251,5 @@
       "fromStrategyLab": true
     }
   ],
-  "openPositions": [
-    {
-      "ticket": 4434420467,
-      "symbol": "XAUUSD",
-      "magic": 10005,
-      "volume": 0.02,
-      "openTime": "2026-05-29T16:00:09",
-      "priceOpen": 4520.91,
-      "profit": -14.72
-    }
-  ]
+  "openPositions": []
 }

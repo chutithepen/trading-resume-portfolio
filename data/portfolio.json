@@ -1,16 +1,16 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 9.426,
-  "totalTrades": 84,
-  "winRatePct": 44.0,
-  "profitFactor": 1.17,
+  "totalReturnPct": 4.309,
+  "totalTrades": 89,
+  "winRatePct": 42.7,
+  "profitFactor": 1.08,
   "maxDrawdownPct": -13.459,
   "benchmark": {
-    "returnPct": 3.798,
+    "returnPct": 3.725,
     "windowStart": "2026-05-04",
     "windowEnd": "2026-05-27",
     "startClose": 7248.4,
-    "endClose": 7523.7
+    "endClose": 7518.4
   },
   "strategiesResearched": 20,
   "strategiesDeployed": 5,
@@ -122,7 +122,11 @@
     },
     {
       "date": "2026-05-28",
-      "returnPct": 9.426
+      "returnPct": 6.62
+    },
+    {
+      "date": "2026-05-29",
+      "returnPct": 4.604
     }
   ],
   "strategies": [
@@ -156,10 +160,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "BTCUSD",
       "firstSeenAt": "2026-05-05T14:53:54+00:00",
-      "trades": 18,
+      "trades": 20,
       "wins": 7,
-      "winRatePct": 38.9,
-      "netPnlPct": 1.166,
+      "winRatePct": 35.0,
+      "netPnlPct": -1.12,
       "fromStrategyLab": true
     },
     {
@@ -168,10 +172,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "USTEC",
       "firstSeenAt": "2026-05-21T19:23:14+00:00",
-      "trades": 2,
+      "trades": 3,
       "wins": 0,
       "winRatePct": 0.0,
-      "netPnlPct": -2.083,
+      "netPnlPct": -3.11,
       "fromStrategyLab": true
     },
     {
@@ -180,10 +184,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "XAUUSD",
       "firstSeenAt": "2026-05-21T19:23:41+00:00",
-      "trades": 4,
+      "trades": 5,
       "wins": 2,
-      "winRatePct": 50.0,
-      "netPnlPct": 2.682,
+      "winRatePct": 40.0,
+      "netPnlPct": 0.916,
       "fromStrategyLab": true
     },
     {
@@ -192,10 +196,10 @@
       "engine": "LongIndexEA_v4.0",
       "symbol": "US500",
       "firstSeenAt": "2026-05-02T18:25:12+00:00",
-      "trades": 11,
-      "wins": 6,
-      "winRatePct": 54.5,
-      "netPnlPct": 3.127,
+      "trades": 12,
+      "wins": 7,
+      "winRatePct": 58.3,
+      "netPnlPct": 3.383,
       "fromStrategyLab": true
     },
     {
@@ -247,5 +251,15 @@
       "fromStrategyLab": true
     }
   ],
-  "openPositions": []
+  "openPositions": [
+    {
+      "ticket": 4434420467,
+      "symbol": "XAUUSD",
+      "magic": 10005,
+      "volume": 0.02,
+      "openTime": "2026-05-29T16:00:09",
+      "priceOpen": 4520.91,
+      "profit": -14.72
+    }
+  ]
 }

@@ -1,16 +1,16 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 3.56,
+  "totalReturnPct": 5.454,
   "totalTrades": 92,
   "winRatePct": 42.4,
   "profitFactor": 1.06,
   "maxDrawdownPct": -13.459,
   "benchmark": {
-    "returnPct": 4.48,
+    "returnPct": 4.51,
     "windowStart": "2026-05-04",
     "windowEnd": "2026-05-29",
     "startClose": 7248.4,
-    "endClose": 7573.1
+    "endClose": 7575.3
   },
   "strategiesResearched": 20,
   "strategiesDeployed": 4,
@@ -130,6 +130,18 @@
     },
     {
       "date": "2026-05-30",
+      "returnPct": 3.56
+    },
+    {
+      "date": "2026-05-31",
+      "returnPct": 3.56
+    },
+    {
+      "date": "2026-06-01",
+      "returnPct": 3.56
+    },
+    {
+      "date": "2026-06-02",
       "returnPct": 3.56
     }
   ],
@@ -255,5 +267,33 @@
       "fromStrategyLab": true
     }
   ],
-  "openPositions": []
+  "openPositions": [
+    {
+      "ticket": 4436032689,
+      "symbol": "US500",
+      "magic": 20001,
+      "volume": 2.0,
+      "openTime": "2026-06-02T08:05:00",
+      "priceOpen": 7591.0,
+      "profit": -0.8
+    },
+    {
+      "ticket": 4436032784,
+      "symbol": "USTEC",
+      "magic": 20002,
+      "volume": 0.5,
+      "openTime": "2026-06-02T08:05:00",
+      "priceOpen": 30433.7,
+      "profit": 36.15
+    },
+    {
+      "ticket": 4436171608,
+      "symbol": "XAUUSD",
+      "magic": 10005,
+      "volume": 0.02,
+      "openTime": "2026-06-02T13:29:14",
+      "priceOpen": 4497.15,
+      "profit": 59.36
+    }
+  ]
 }

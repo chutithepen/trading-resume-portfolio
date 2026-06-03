@@ -1,16 +1,16 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 9.058,
-  "totalTrades": 98,
-  "winRatePct": 44.9,
-  "profitFactor": 1.14,
+  "totalReturnPct": 11.014,
+  "totalTrades": 100,
+  "winRatePct": 46.0,
+  "profitFactor": 1.18,
   "maxDrawdownPct": -13.459,
   "benchmark": {
-    "returnPct": 4.677,
+    "returnPct": 5.008,
     "windowStart": "2026-05-04",
-    "windowEnd": "2026-06-02",
+    "windowEnd": "2026-06-03",
     "startClose": 7248.4,
-    "endClose": 7587.4
+    "endClose": 7611.4
   },
   "strategiesResearched": 20,
   "strategiesDeployed": 4,
@@ -146,7 +146,7 @@
     },
     {
       "date": "2026-06-03",
-      "returnPct": 9.222
+      "returnPct": 11.399
     }
   ],
   "strategies": [
@@ -216,10 +216,10 @@
       "engine": "LongIndexEA_v4.0",
       "symbol": "US500",
       "firstSeenAt": "2026-05-02T18:25:12+00:00",
-      "trades": 13,
-      "wins": 8,
-      "winRatePct": 61.5,
-      "netPnlPct": 4.739,
+      "trades": 14,
+      "wins": 9,
+      "winRatePct": 64.3,
+      "netPnlPct": 5.399,
       "fromStrategyLab": true
     },
     {
@@ -228,10 +228,10 @@
       "engine": "LongIndexEA_v4.0",
       "symbol": "USTEC",
       "firstSeenAt": "2026-05-02T18:27:58+00:00",
-      "trades": 12,
-      "wins": 8,
-      "winRatePct": 66.7,
-      "netPnlPct": 7.961,
+      "trades": 13,
+      "wins": 9,
+      "winRatePct": 69.2,
+      "netPnlPct": 9.478,
       "fromStrategyLab": true
     },
     {
@@ -279,7 +279,7 @@
       "volume": 2.0,
       "openTime": "2026-06-03T08:05:00",
       "priceOpen": 7613.1,
-      "profit": -3.0
+      "profit": -6.8
     },
     {
       "ticket": 4436888924,
@@ -288,7 +288,7 @@
       "volume": 0.5,
       "openTime": "2026-06-03T08:05:00",
       "priceOpen": 30670.5,
-      "profit": -5.2
+      "profit": -12.45
     }
   ]
 }

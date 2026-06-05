@@ -1,20 +1,20 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 10.627,
+  "totalReturnPct": 11.277,
   "totalTrades": 106,
   "winRatePct": 45.3,
   "profitFactor": 1.11,
   "maxDrawdownPct": -13.459,
   "benchmark": {
-    "returnPct": 4.453,
+    "returnPct": 4.612,
     "windowStart": "2026-05-04",
-    "windowEnd": "2026-06-03",
+    "windowEnd": "2026-06-04",
     "startClose": 7248.4,
-    "endClose": 7571.2
+    "endClose": 7582.7
   },
-  "strategiesResearched": 20,
+  "strategiesResearched": 21,
   "strategiesDeployed": 4,
-  "strategiesKilled": 16,
+  "strategiesKilled": 17,
   "equityCurve": [
     {
       "date": "2026-05-02",
@@ -287,7 +287,7 @@
       "volume": 0.02,
       "openTime": "2026-06-05T13:22:06",
       "priceOpen": 4436.43,
-      "profit": 136.54
+      "profit": 169.08
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 11.277,
-  "totalTrades": 106,
-  "winRatePct": 45.3,
-  "profitFactor": 1.11,
+  "totalReturnPct": 10.699,
+  "totalTrades": 108,
+  "winRatePct": 45.4,
+  "profitFactor": 1.15,
   "maxDrawdownPct": -13.459,
   "benchmark": {
-    "returnPct": 4.612,
+    "returnPct": 4.166,
     "windowStart": "2026-05-04",
-    "windowEnd": "2026-06-04",
+    "windowEnd": "2026-06-05",
     "startClose": 7248.4,
-    "endClose": 7582.7
+    "endClose": 7550.4
   },
-  "strategiesResearched": 21,
+  "strategiesResearched": 22,
   "strategiesDeployed": 4,
-  "strategiesKilled": 17,
+  "strategiesKilled": 18,
   "equityCurve": [
     {
       "date": "2026-05-02",
@@ -154,7 +154,11 @@
     },
     {
       "date": "2026-06-05",
-      "returnPct": 7.896
+      "returnPct": 6.881
+    },
+    {
+      "date": "2026-06-06",
+      "returnPct": 10.699
     }
   ],
   "strategies": [
@@ -200,10 +204,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "USTEC",
       "firstSeenAt": "2026-05-21T19:23:14+00:00",
-      "trades": 8,
+      "trades": 9,
       "wins": 1,
-      "winRatePct": 12.5,
-      "netPnlPct": -6.176,
+      "winRatePct": 11.1,
+      "netPnlPct": -7.19,
       "fromStrategyLab": true
     },
     {
@@ -212,10 +216,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "XAUUSD",
       "firstSeenAt": "2026-05-21T19:23:41+00:00",
-      "trades": 10,
-      "wins": 7,
-      "winRatePct": 70.0,
-      "netPnlPct": 5.998,
+      "trades": 11,
+      "wins": 8,
+      "winRatePct": 72.7,
+      "netPnlPct": 9.816,
       "fromStrategyLab": true
     },
     {
@@ -279,15 +283,5 @@
       "fromStrategyLab": true
     }
   ],
-  "openPositions": [
-    {
-      "ticket": 4438732981,
-      "symbol": "XAUUSD",
-      "magic": 10005,
-      "volume": 0.02,
-      "openTime": "2026-06-05T13:22:06",
-      "priceOpen": 4436.43,
-      "profit": 169.08
-    }
-  ]
+  "openPositions": []
 }

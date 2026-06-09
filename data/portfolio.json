@@ -1,16 +1,16 @@
 {
   "startDate": "2026-05-02",
-  "totalReturnPct": 8.922,
-  "totalTrades": 109,
-  "winRatePct": 45.0,
-  "profitFactor": 1.12,
+  "totalReturnPct": 18.946,
+  "totalTrades": 112,
+  "winRatePct": 45.5,
+  "profitFactor": 1.23,
   "maxDrawdownPct": -13.459,
   "benchmark": {
-    "returnPct": 3.226,
+    "returnPct": 2.661,
     "windowStart": "2026-05-04",
-    "windowEnd": "2026-06-05",
+    "windowEnd": "2026-06-08",
     "startClose": 7248.4,
-    "endClose": 7482.2
+    "endClose": 7441.3
   },
   "strategiesResearched": 23,
   "strategiesDeployed": 4,
@@ -170,7 +170,7 @@
     },
     {
       "date": "2026-06-09",
-      "returnPct": 8.922
+      "returnPct": 16.825
     }
   ],
   "strategies": [
@@ -231,7 +231,7 @@
       "trades": 12,
       "wins": 8,
       "winRatePct": 66.7,
-      "netPnlPct": 8.039,
+      "netPnlPct": 8.037,
       "fromStrategyLab": true
     },
     {
@@ -240,10 +240,10 @@
       "engine": "RangeBreakoutEA_v8.0",
       "symbol": "USTEC",
       "firstSeenAt": "2026-06-06T06:19:48+00:00",
-      "trades": 0,
+      "trades": 1,
       "wins": 0,
       "winRatePct": 0.0,
-      "netPnlPct": 0.0,
+      "netPnlPct": -0.588,
       "fromStrategyLab": true
     },
     {
@@ -276,10 +276,10 @@
       "engine": "LongIndexEA_v4.0",
       "symbol": "US500",
       "firstSeenAt": "2026-06-06T06:19:34+00:00",
-      "trades": 0,
-      "wins": 0,
-      "winRatePct": 0.0,
-      "netPnlPct": 0.0,
+      "trades": 1,
+      "wins": 1,
+      "winRatePct": 100.0,
+      "netPnlPct": 2.36,
       "fromStrategyLab": true
     },
     {
@@ -288,10 +288,10 @@
       "engine": "LongIndexEA_v4.0",
       "symbol": "USTEC",
       "firstSeenAt": "2026-06-06T06:19:42+00:00",
-      "trades": 0,
-      "wins": 0,
-      "winRatePct": 0.0,
-      "netPnlPct": 0.0,
+      "trades": 1,
+      "wins": 1,
+      "winRatePct": 100.0,
+      "netPnlPct": 6.132,
       "fromStrategyLab": true
     },
     {
@@ -331,5 +331,33 @@
       "fromStrategyLab": true
     }
   ],
-  "openPositions": []
+  "openPositions": [
+    {
+      "ticket": 4440448616,
+      "symbol": "USTEC",
+      "magic": 20004,
+      "volume": 0.5,
+      "openTime": "2026-06-09T08:05:00",
+      "priceOpen": 29370.3,
+      "profit": -121.75
+    },
+    {
+      "ticket": 4440448710,
+      "symbol": "US500",
+      "magic": 20003,
+      "volume": 2.1,
+      "openTime": "2026-06-09T08:05:00",
+      "priceOpen": 7396.1,
+      "profit": -34.23
+    },
+    {
+      "ticket": 4440785717,
+      "symbol": "USTEC",
+      "magic": 10006,
+      "volume": 0.5,
+      "openTime": "2026-06-09T23:31:47",
+      "priceOpen": 29651.8,
+      "profit": 262.05
+    }
+  ]
 }
